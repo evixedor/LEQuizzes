@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.signin {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 990px) {
+    .signin {
+        display: block;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+}
+
+/* section1 */
+
+.section1 {
+  text-align: center;
+  height: 100vh;
+  width: 50%;
+}
+
+.img {
+  height: 280px;
+  width: 400px;
+  margin-top: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h1text {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.div1text {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.div2text {
+  font-size: 0.85rem;
+  padding-bottom: 60px;
+  font-weight: bold;
+}
+
+.homebutton {
+  background-color: #515ae4;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.bottomtext {
+  padding-top: 100px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+@media (max-width: 990px) {
+    .section1 {
+        text-align: center;
+        height: 55vh;
+        width: 100%;
+      }
+      
+      .img {
+        display: block;
+        height: 140px;
+        width: 200px;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      
+      .h1text {
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+      
+      .div1text {
+        margin-top: 15px;
+        font-size: 0.7rem;
+        font-weight: bold;
+      }
+      
+      .div2text {
+        font-size: 0.7rem;
+        padding-bottom: 30px;
+        font-weight: bold;
+      }
+      
+      .homebutton {
+        background-color: #515ae4;
+        color: white;
+        font-size: 0.75rem;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+      }
+      
+      .bottomtext {
+        padding-top: 0px;
+        font-size: 0.85rem;
+        font-weight: bold;
+        opacity: 0.7;
+        display: none;
+      }
+}
+
+/* section2 */
+
+.section2 {
+  background: linear-gradient(to bottom, #515ae4 30%, #272c74);
+  height: 100vh;
+  width: 50%;
+  color: white;
+}
+
+.div1 {
+  margin-top: 190px;
+  margin-left: 130px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.input1 {
+  margin-left: 130px;
+  margin-top: 20px;
+  padding-right: 200px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-top: 8px;
+  border-radius: 5px;
+  border: solid black 1px;
+  font-size: 0.9rem;
+  outline-color: rgb(129, 174, 216);
+  color: black;
+}
+.input1::placeholder {
+  transition: color 0.3s ease;
+}
+.input1:focus::placeholder {
+  color: transparent;
+}
+
+.input2 {
+  display: block;
+  margin-left: 130px;
+  margin-top: 16px;
+  padding-right: 200px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-radius: 5px;
+  border: solid black 1px;
+  font-size: 0.9rem;
+  outline-color: rgb(129, 174, 216);
+  color: black;
+}
+.input2::placeholder {
+  transition: color 0.3s ease;
+}
+.input2:focus::placeholder {
+  color: transparent;
+}
+
+.div2 {
+  margin-left: 130px;
+  margin-top: 16px;
+  font-size: 0.85rem;
+}
+
+.div2child {
+  color: black;
+  font-weight: bold;
+}
+
+.loginbutton {
+  margin-left: 130px;
+  background-color: #bb572a;
+  margin-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.createaccount{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+@media (max-width: 990px) {
+    .section2 {
+        background: linear-gradient(to bottom, #515ae4 30%, #272c74);
+        height: 100vh;
+        width: 100%;
+        color: white;
+        text-align: center;
+      }
+      
+      .div1 {
+        margin-top: 0px;
+        padding-top: 50px;
+        margin-left: 0px;
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+      
+      .input1 {
+        margin-left: 0px;
+        margin-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-top: 8px;
+        border-radius: 5px;
+        border: solid black 1px;
+        font-size: 0.9rem;
+        outline-color: rgb(129, 174, 216);
+        color: black;
+      }
+      .input1::placeholder {
+        transition: color 0.3s ease;
+      }
+      .input1:focus::placeholder {
+        color: transparent;
+      }
+      
+      .input2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 16px;
+        padding-right: 0px;
+        padding-left: 10px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        border-radius: 5px;
+        border: solid black 1px;
+        font-size: 0.9rem;
+        outline-color: rgb(129, 174, 216);
+        color: black;
+      }
+      .input2::placeholder {
+        transition: color 0.3s ease;
+      }
+      .input2:focus::placeholder {
+        color: transparent;
+      }
+      
+      .div2 {
+        margin-left: 0px;
+        margin-top: 16px;
+        font-size: 0.85rem;
+      }
+      
+      .div2child {
+        color: black;
+        font-weight: bold;
+      }
+      
+      .loginbutton {
+        margin-left: 0px;
+        background-color: #bb572a;
+        margin-top: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+      }
+      
+      .createaccount{
+          display: block;
+          text-align: center;
+          margin-top: 50px;
+          text-decoration: underline;
+      }
+}
